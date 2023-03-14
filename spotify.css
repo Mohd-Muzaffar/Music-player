@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.navlist{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul
+{
+    background-color: black;
+    height: 7vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+img{
+    width: 45px;
+}
+.txt{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+li{
+    padding: 0 18px;
+}
+.container{
+    background-color: black;
+    min-height: 72vh;
+    margin: 35px auto;
+    width: 55%;
+    border-radius: 12px;
+    padding: 35px;
+    background-image:url(music.jpg) ;
+    color: white;
+}
+.songcontainer{
+    margin-top: 40px;
+    width: 50%;
+}
+.songlist{
+    background-color: white;
+    color: purple;
+    height: 38px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    margin: 15px 0;
+}
+.time{
+    margin: 0 20px;
+}
+.bottom{
+    position: sticky;
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+.bottom input{
+    width: 50%;
+}
+.icons{
+    color: red;
+}
